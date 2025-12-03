@@ -8,68 +8,79 @@
 </head>
 
 <body>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
-        <!-- Header -->
-        <tr>
-            <table>
-                <td width="120" height="80" valign="middle" align="left" style="padding:20px;">
-                    <img src="images/logo.jpg" alt="Logo Ciclocrós" width="100" height="auto"
-                        style="display:block; border:0;">
-                </td>
-                <td>
-                    <h1 style="margin-left:20px; font-size:28px; line-height:1.2; color:#000000;">
-                        Ciclocross
-                    </h1>
-                </td>
-            </table>
-        </tr>
-        <tr>
+    <!-- Header -->
+    <tr>
+      <td>
+        <table width="100%">
+          <tr>
+            <td width="120" height="80" valign="middle" align="left" style="padding:20px;">
+              <img src="images/logo.jpg" alt="Logo Ciclocrós" width="100" height="auto" style="display:block; border:0;">
+            </td>
             <td>
-                <table width="100%">
-                    <tr>
-                        <td align="center"><a href="index.html">Portada</a></td>
-                        <td align="center"><a href="competiciones.html">Competiciones</a></td>
-                        <td align="center"><a href="ciclistas.html">Ciclistas</a></td>
-                        <td align="center"><a href="contacto.html">Contacto</a></td>
-                    </tr>
-                </table>
+              <h1 style="margin-left:20px; font-size:28px; line-height:1.2; color:#000000;">
+                Ciclocross
+              </h1>
             </td>
-        </tr>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-        </td>
-        </tr>
+    <!-- Nav -->
+    <tr>
+      <td>
+        <table width="100%">
+          <tr>
+            <td align="center"><a href="index.html">Portada</a></td>
+            <td align="center"><a href="competiciones.html">Competiciones</a></td>
+            <td align="center"><a href="ciclistas.html">Ciclistas</a></td>
+            <td align="center"><a href="contacto.html">Contacto</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-        <!-- Banner -->
-        <tr>
-            <td align="center">
-                <img width="100%"
-                    src="./images/244095513-banner-contemporary-art-collage-female-cyclist-riding-through-bold-orange-wave-focus-and-drive-flow.webp">
-            </td>
-        </tr>
+    <!-- Banner -->
+    <tr>
+      <td>
+        <img width="100%" src="./images/244095513-banner-contemporary-art-collage-female-cyclist-riding-through-bold-orange-wave-focus-and-drive-flow.webp" alt="Banner">
+      </td>
+    </tr>
 
-        <!-- Párrafo introductorio -->
-        <p>Si necesitas ponerte en contacto con nuestra organización, puedes hacerlo a través del siguiente formulario.
-            Estamos aquí para ayudarte con cualquier consulta, sugerencia o incidencia. Cuéntanos lo que necesites y te
-            responderemos lo antes posible.</p>
+    <!-- Párrafo introductorio -->
+    <tr>
+      <td>
+        <p style="padding: 20px; text-align:center;">
+          Si necesitas ponerte en contacto con nuestra organización, puedes hacerlo a través del siguiente formulario.
+          Estamos aquí para ayudarte con cualquier consulta, sugerencia o incidencia. Cuéntanos lo que necesites y te
+          responderemos lo antes posible.
+        </p>
+      </td>
+    </tr>
 
+    <!-- Formulario -->
+    <tr>
+      <td align="center">
+        <form action="/enviar-formulario" method="POST" class="contact-form" style="padding:20px;">
 
-        <!-- Formulario -->
-        <form align="center" action="/enviar-formulario" method="POST" class="contact-form">
             <label for="nombre">Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required /><br><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
 
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required /><br><br>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required><br><br>
 
             <label for="comentarios">Comentarios:</label><br>
-            <textarea id="comentarios" name="comentarios" placeholder="Escribe tu mensaje aquí" rows="5"
-                required></textarea><br><br>
+            <textarea id="comentarios" name="comentarios" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea><br><br>
 
             <button type="submit">Enviar</button>
-        </form>
 
-            <!-- Sección de patrocinadores - 5 columnas -->
+        </form>
+      </td>
+    </tr>
+
+    <!-- Sección de patrocinadores -->
     <tr>
       <td>
         <h2 align="center">Nuestros Patrocinadores</h2>
@@ -78,28 +89,28 @@
             <td align="center"><img src="images/logo-giant.jpg" alt="Patrocinador 1" width="150"></td>
             <td align="center"><img src="images/Logo-Giro.png" alt="Patrocinador 2" width="150"></td>
             <td align="center"><img src="images/scott-logo.webp" alt="Patrocinador 3" width="150"></td>
-            <td align="center"><img src="images/shimanuo_480x480.avif" alt="Patrocinador 4" width="150">
-            </td>
-            <td align="center"><img
-                src="images/png-clipart-logo-trek-bicycle-corporation-trek-factory-racing-brand-bicycle.png"
-                alt="Patrocinador 5" width="150"></td>
+            <td align="center"><img src="images/shimanuo_480x480.avif" alt="Patrocinador 4" width="150"></td>
+            <td align="center"><img src="images/png-clipart-logo-trek-bicycle-corporation-trek-factory-racing-brand-bicycle.png" alt="Patrocinador 5" width="150"></td>
           </tr>
         </table>
       </td>
-    </tr>F
+    </tr>
 
-        <!-- Footer -->
-        <tr>
-            <td>
-                <table width="100%" bgcolor="#f0f0f0">
-                    <tr>
-                        <td align="center">
-                            <p>Todos los derechos reservados</p>
-                            <p><a href="contacto.html">Contacto</a></p>
-                        </td>
-                    </tr>
-                </table>
+    <!-- Footer -->
+    <tr>
+      <td>
+        <table width="100%" bgcolor="#f0f0f0">
+          <tr>
+            <td align="center">
+              <p>Todos los derechos reservados</p>
+              <p><a href="contacto.html">Contacto</a></p>
             </td>
-        </tr>
-    </table>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+  </table>
 </body>
+
+</html>
